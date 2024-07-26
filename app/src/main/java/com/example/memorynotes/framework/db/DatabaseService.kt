@@ -25,5 +25,4 @@ abstract class DatabaseService : RoomDatabase() {
     }
 
     abstract fun noteDao(): NoteDao
-
 }
