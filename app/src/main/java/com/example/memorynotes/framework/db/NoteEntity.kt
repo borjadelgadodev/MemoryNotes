@@ -8,9 +8,12 @@ import com.example.core.data.Note
 @Entity(tableName = "note")
 data class NoteEntity(
     var title: String,
+
     var content: String,
+
     @ColumnInfo(name = "creation_date")
     var creationTime: Long,
+
     @ColumnInfo(name = "update_time")
     var updateTime: Long,
 
