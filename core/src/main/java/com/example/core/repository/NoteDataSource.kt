@@ -9,5 +9,5 @@ interface NoteDataSource {
 
     suspend fun getAll(): List<Note>
 
-    suspend fun remove(note: Note)
+    suspend fun remove(note: Note) : Int
 }

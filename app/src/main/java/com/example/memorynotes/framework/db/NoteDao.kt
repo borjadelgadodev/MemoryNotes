@@ -18,5 +18,5 @@ interface NoteDao {
     suspend fun getAllNoteEntities(): List<NoteEntity>
 
     @Delete
-    suspend fun deleteNoteEntity(noteEntity: NoteEntity)
+    suspend fun deleteNoteEntity(noteEntity: NoteEntity) : Int
 }

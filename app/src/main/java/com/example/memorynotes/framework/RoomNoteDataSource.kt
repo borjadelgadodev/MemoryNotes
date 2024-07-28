@@ -15,5 +15,6 @@ class RoomNoteDataSource (context: Context) : NoteDataSource {
 
     override suspend fun getAll(): List<Note> = noteDao.getAllNoteEntities().map { it.toNote() }
 
-    override suspend fun remove(note: Note) = noteDao.deleteNoteEntity(NoteEntity.fromNote(note))
+    override suspend fun remove(note: Note): Int = noteDao.deleteNoteEntity(NoteEntity.fromNote(note))
 }
+
