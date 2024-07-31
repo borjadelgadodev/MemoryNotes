@@ -10,10 +10,6 @@ Memory Notes es una aplicación de notas intuitiva y eficiente desarrollada en K
 4. [Instalación](#-instalación)
 5. [Uso](#-uso)
 6. [Estructura del Proyecto](#-estructura-del-proyecto)
-7. [Inyección de Dependencias](#-inyección-de-dependencias)
-8. [Contribución](#-contribución)
-9. [Licencia](#-licencia)
-10. [Contacto](#-contacto)
 
 ## ✨ Características
 
