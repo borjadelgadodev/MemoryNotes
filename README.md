@@ -19,9 +19,6 @@ Memory Notes es una aplicación de notas intuitiva y eficiente desarrollada en K
 - Navegación intuitiva entre pantallas.
 - Integración con Room para almacenamiento local.
 
-## 📸 Capturas de Pantalla
-
-
 ## ⚙️ Instalación
 
 1. Clona este repositorio:
